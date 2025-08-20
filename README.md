@@ -11,7 +11,7 @@ This project is a pixel-perfect implementation of the PopX onboarding interface 
 
 ## 🚀 Live Demo
 
-You can view the live demo of the project at: [PopX UI React Qualification Task](https://popx-react-qualification-task.vercel.app/)
+You can view the live demo of the project at: [PopX UI React Qualification Task](https://popx-ui-qualification-task.vercel.app/)
 
 ## 📂 Source Code
 
