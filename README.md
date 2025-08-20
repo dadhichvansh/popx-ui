@@ -1,12 +1,74 @@
-# React + Vite
+# PopX UI - React Qualification Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a pixel-perfect implementation of the PopX onboarding interface for the internship qualifier task. It includes a Landing screen, Login, Signup, and Profile screens, as designed in the assignment.
 
-Currently, two official plugins are available:
+## 📱 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Frontend: React JS + Tailwind CSS
+- Routing: React Router DOM
+- UI: Designed per the provided Adobe XD references with full attention to layout, color, and usability
+- Hosting: Vercel (see hosted link below)
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can view the live demo of the project at: [PopX UI React Qualification Task](https://popx-react-qualification-task.vercel.app/)
+
+## 📂 Source Code
+
+[View this repository on GitHub](https://github.com/dadhichvansh/popx-ui)
+
+## 🔑 Features
+
+- Pixel-perfect recreation of the provided mobile interface and user flows
+- Modular, clean component structure
+- Landing screen, Login form, Signup form, and Profile page included
+- Responsive layout: centered, mobile-sized UI in any browser
+- Clear navigation between all screens using React Router
+
+## 🛠️ How to Run Locally
+
+1. Clone the repository:
+
+```text
+git clone https://github.com/dadhichvansh/popx-ui
+cd popx-ui
+```
+
+2. Install dependencies:
+
+```text
+npm install
+```
+
+3. Start the development server:
+
+```text
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173` to view the application.
+
+## 📋 Project Structure
+
+```text
+popx-ui/
+├── public/                # Static assets
+├── src/                   # Source code
+│   ├── components/        # Reusable components and layout
+│   ├── pages/             # Page components (Landing, Login, Signup, Profile)
+│   ├── index.css          # Tailwind CSS configuration
+│   ├── App.jsx            # Main app component
+│   └── main.jsx           # Entry point
+├── package.json           # Project metadata and dependencies
+├── tailwind.config.js     # Tailwind CSS configuration
+└── vite.config.js         # Vite configuration
+```
+
+## ⚠️ Notes
+
+- This project focuses on frontend implementation only; form actions such as login/signup do not have backend/API integration.
+- Navigation is purely client-side and is for demonstration of UI and routing only.
+
+## 📧 Contact
+
+For any queries or issues, please open an issue on this GitHub repository.
